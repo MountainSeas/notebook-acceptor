@@ -1,0 +1,63 @@
+{
+  "name": "tucchun-api",
+  "version": "1.0.0",
+  "description": "tucchun node RESTFul API",
+  "main": "./bin/index.js",
+  "scripts": {
+    "start": "node ./bin/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tucchun/tucchun-api.git"
+  },
+  "keywords": [
+    "tucchun",
+    "node",
+    "api",
+    "layer"
+  ],
+  "author": "tucchun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tucchun/tucchun-api/issues"
+  },
+  "homepage": "https://github.com/tucchun/tucchun-api#readme",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "express-validation": "^1.0.2",
+    "express-winston": "^2.5.1",
+    "glob": "^7.1.2",
+    "helmet": "^3.12.1",
+    "http-status": "^1.2.0",
+    "joi": "^13.4.0",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.1.5",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "util": "^0.11.0",
+    "winston": "^2.4.3",
+    "winston-daily-rotate-file": "^3.2.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0"
+  }
+}
